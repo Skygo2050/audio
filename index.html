@@ -43,7 +43,7 @@ new google.translate.TranslateElement({pageLanguage:'en', layout:google.translat
 	            if (!flag) {
 	                flag = true;
 	                utterance = new SpeechSynthesisUtterance(document.querySelector('article').textContent);
-	                utterance.voice = getVoices()[1];
+	                utterance.voice = getVoices()[0];
 	                utterance.rate = 0.78;
 	                utterance.pitch = 1;
 	                utterance.lang = "en-us";
